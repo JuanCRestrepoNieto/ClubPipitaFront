@@ -1,4 +1,16 @@
 .fondo{
-    
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.808);
+    background-blend-mode: color;
     background-image: url('../Img/PpitaHiguain.png');
+}
+
+.contenedorInicioSesion{
+    width: 50%;
+    height: 60%;
+    background-color: rgb(65, 62, 62);
+    border-radius: 0%;
+    margin-left: 25%;
+    margin-top: 10%;
+    position:absolute;
 }
