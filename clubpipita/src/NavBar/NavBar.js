@@ -1,12 +1,10 @@
 import React from "react";
 
-function LandingPage(props) {
+function NavBar(props) {
     return (
         <div
             className="">
             
         </div>
-    )
+    );
 }
-
-export {LandingPage}

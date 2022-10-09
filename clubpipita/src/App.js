@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import { InicioSesion } from './InicioSesion/InicioSesion';
 import './App.css';
 
