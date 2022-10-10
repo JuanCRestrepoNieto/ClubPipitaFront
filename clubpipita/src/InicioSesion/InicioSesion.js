@@ -10,11 +10,11 @@ function InicioSesion(props) {
                 className={css.contenedorInicioSesion}>
                 <div
                     className="">
-                        
+                        Iniciar Sesión
                 </div>
                 <div
                     className="">
-
+                        
                 </div>
             </div>
         </div>
