@@ -38,10 +38,27 @@
     font-weight: 600;
 }
 
-.InputUsuario{
+.ContenedorUserName{
     margin-top: 10px;
+    width: 100%;
+}
+
+.ContenedorPassword{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.InputUsuario{
+    width: 100%;
+    background-color: white;
 }
 
 .InputContrasena{
-    margin-top: 10px;
+    background-color: white;
+}
+
+.boton{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
 }
