@@ -73,7 +73,7 @@ function InicioSesion(props) {
                                 }
                             />
                     </div>
-                    <button className={`form-control ${css.boton}`}>Iniciar sesión</button>
+                    <button className={`btn btn-outline-info ${css.boton}`}>Iniciar sesión</button>
                 </div>
                 
             </div>

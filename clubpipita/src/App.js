@@ -1,12 +1,12 @@
 import { InicioSesion } from './InicioSesion/InicioSesion';
 import './App.css';
+import { LandingPage } from './LandingPage/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <InicioSesion>
-        
-      </InicioSesion>
+      <LandingPage>
+      </LandingPage>
     </div>
   );
 }
