@@ -1,4 +1,25 @@
 .fondo{
-    
-    background-image: url('../Img/PpitaHiguain.png');
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.808);
+    background-blend-mode: color;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../Img/Pipita644px.PNG');
 }
+
+.contenedorInicioSesion{
+    width: 50%;
+    height: 60%;
+    border-radius: 0%;
+    margin-left: 25%;
+    margin-top: 10%;
+    position:absolute;
+}
+
+/* @media (max-width:644px){
+    .fondo{
+        background-image: url('../Img/Pipita644px.PNG');
+    }
+} */
