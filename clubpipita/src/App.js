@@ -1,12 +1,15 @@
-import { InicioSesion } from './InicioSesion/InicioSesion';
+import { NavBar } from './NavBar/NavBar.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <InicioSesion>
+      {/* <InicioSesion> */}
         
-      </InicioSesion>
+      {/* </InicioSesion> */}
+      <NavBar>
+        
+      </NavBar>
     </div>
   );
 }

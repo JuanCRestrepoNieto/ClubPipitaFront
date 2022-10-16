@@ -1,0 +1,38 @@
+.lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+    
+    .elemento {
+    float: left;
+    }
+    
+    .elemento a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px16px;
+    text-decoration: none;
+    }
+    
+    .elemento a:hover {
+    background-color: #111;
+    }
+
+    .contenedorOpciones{
+        justify-content: center;
+        display: flex;
+    }
+    .fondo{
+        background-image: url('../Img/Pipita644px.PNG');
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.808);
+        background-blend-mode: color;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
