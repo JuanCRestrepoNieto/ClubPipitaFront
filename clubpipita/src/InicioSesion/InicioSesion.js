@@ -9,12 +9,29 @@ function InicioSesion(props) {
             <div
                 className={css.contenedorInicioSesion}>
                 <div
-                    className="">
-                        Iniciar Sesión
+                    className={css.TituloInicioSesion}>
+                    Iniciar Sesión
                 </div>
                 <div
-                    className="">
-                        
+                    className={css.InfoSesion}>
+                    <div
+                        className={css.Usuario}>
+                        Usuario
+                    </div>
+                    <div
+                        className={css.InputUsuario}>
+                        <input>
+                        </input>
+                    </div>
+                    <div
+                        className={css.Contrasena}>
+                        Contraseña
+                    </div>
+                    <div
+                        className={css.InputContrasena}>
+                        <input>
+                        </input>
+                    </div>
                 </div>
             </div>
         </div>
