@@ -6,6 +6,7 @@
 .Bienvenida{
     font-size: 30px;
     font-weight: 700;
+    margin-top: 3%;
 }
 
 .texto{
@@ -13,6 +14,10 @@
     font-weight: 500;
     color: rgb(87, 86, 86);
     width: 40%;
+}
+
+.texto span{
+    font-weight: bolder;
 }
 
 .imagenes{

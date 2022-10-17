@@ -29,14 +29,14 @@
 
 .contenedor{
   background-image: url('./Img/Pipita644px.PNG');
-  height: 100vh;
   background-color: rgba(255, 255, 255, 0.808);
   background-blend-mode: color;
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  
+  height: 90vh;
+  overflow-y: scroll;
 }
 
 @keyframes App-logo-spin {
