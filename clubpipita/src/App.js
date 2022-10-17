@@ -7,12 +7,10 @@ import { Footer } from './Footer/Footer.js';
 function App() {
   return (
     <div className="App">
-      {/* <InicioSesion> */}
-        
-      {/* </InicioSesion> */}
-      <div className='contenedor'>
+      
       <BrowserRouter>
       <NavBar></NavBar>
+      <div className='contenedor'>
       <Routes>
              {rutas.map(ruta => <Route
                element={<ruta.component  ></ruta.component>}
@@ -20,8 +18,9 @@ function App() {
                path={ruta.path} >
              </Route>)}
            </Routes>
+           </div>
       </BrowserRouter>
-      </div>
+      
       <Footer></Footer>
     </div>
   );
