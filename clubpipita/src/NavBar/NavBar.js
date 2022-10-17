@@ -1,5 +1,6 @@
 import React, { createContext } from "react";
 import css from "./NavBar.module.css"
+import {NavLink} from "react-router-dom";
 
 function NavBar(props) {
     return (
@@ -12,21 +13,21 @@ function NavBar(props) {
     <a className="navbar-brand" href="#">Club Pipita</a>
     <div className={`collapse navbar-collapse ${css.contenedorOpciones}`} id="navbarTogglerDemo03">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="#">Nosotros</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Consultar</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Actualizar</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Registrar</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Informes</a>
-        </li>
+        <NavLink to='/Nosotros' activeclassname="active" className="nav-link" aria-current="page">
+        <li className="nav-item">Nosotros</li>
+        </NavLink>
+        <NavLink to='/Consulta' activeclassname="active" className="nav-link" aria-current="page">
+        <li className="nav-item">Consultar</li>
+        </NavLink>
+        <NavLink to='/Actualizar' activeclassname="active" className="nav-link" aria-current="page">
+        <li className="nav-item">Actualizar</li>
+        </NavLink>
+        <NavLink to='/Registrar' activeclassname="active" className="nav-link" aria-current="page">
+        <li className="nav-item">Registrar</li>
+        </NavLink>
+        <NavLink to='/Informes' activeclassname="active" className="nav-link" aria-current="page">
+        <li className="nav-item">Informes</li>
+        </NavLink>
       </ul>
       <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="¿Buscar?" aria-label="Search"/>

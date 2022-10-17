@@ -10,7 +10,7 @@ import VisibilityOff from '@mui/icons-material/VisibilityOff';
 
 function InicioSesion(props) {
 
-    const [values, setValues] = React.useState({
+    const [values, setValues] = useState({
         amount: '',
         password: '',
         weight: '',
