@@ -5,7 +5,9 @@ import { Informes } from "./Informes/Informes.js";
 import { LandingPage } from "./LandingPage/LandingPage";
 import { Nosotros } from "./Nosotros/Nosotros.js";
 import { Registrar } from "./Registrar/Registrar.js";
-
+import { FRMConsultarTorneo } from "./Consulta/FRMConsulta/FRMConsultarTorneo.js"
+import { FRMConsultarJugador } from "./Consulta/FRMConsulta/FRMConsultarJugador.js";
+import { FRMConsultarEquipo } from "./Consulta/FRMConsulta/FRMConsultarEquipo.js";
 
 const rutas = [
         /*RUTAS INICIALES*/
@@ -25,8 +27,13 @@ const rutas = [
     {},
     {},
     {},
-    {}
+    {},
     
+
+    /*RUTAS DEL CONSULTAR*/
+    {path:'/ConsultarTorneo', component: FRMConsultarTorneo, exact: true },
+    {path:'/ConsultarJugador', component: FRMConsultarJugador, exact: true},
+    {path:'/ConsultarEquipo', component: FRMConsultarEquipo, exact: true}
 ];
 
 export {rutas}
