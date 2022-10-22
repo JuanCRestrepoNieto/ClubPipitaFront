@@ -10,6 +10,9 @@ import { Nosotros } from "./Nosotros/Nosotros.js";
 import { Registrar } from "./Registrar/Registrar.js";
 import { FRMDatosPersonales } from "./Actualizar/FRMActualizar/FRMDatosPersonales.js";
 import { FRMEquipo } from "./Actualizar/FRMActualizar/FRMEquipo.js";
+import { FRMConsultarEquipo} from "./Consulta/FRMConsulta/FRMConsultarEquipo.js"
+import { FRMConsultarJugador} from "./Consulta/FRMConsulta/FRMConsultarJugador.js"
+import { FRMConsultarTorneo} from "./Consulta/FRMConsulta/FRMConsultarTorneo.js"
 
 const rutas = [
         /*RUTAS INICIALES*/
@@ -29,7 +32,12 @@ const rutas = [
     {path: '/ActualizarJugador', component: FRMJugador, exact: true},
     {path: '/ActualizarEstadisticas', component: FRMEstadisticas, exact: true},
     {path: '/ActualizarEquipo', component: FRMEquipo, exact: true},
-    {path: '/ActualizarDatosPersonales', component: FRMDatosPersonales, exact: true},   
+    {path: '/ActualizarDatosPersonales', component: FRMDatosPersonales, exact: true},  
+    
+        /*RUTAS DEL CONSULTAR*/
+        {path:'/ConsultarTorneo', component: FRMConsultarTorneo, exact: true },
+        {path:'/ConsultarJugador', component: FRMConsultarJugador, exact: true},
+        {path:'/ConsultarEquipo', component: FRMConsultarEquipo, exact: true}
 ];
 
 export {rutas}
