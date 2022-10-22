@@ -18,10 +18,10 @@ function App() {
               path={ruta.path} >
             </Route>)}
           </Routes>
-          <Footer></Footer>
+          
         </div>
+        <Footer></Footer>
       </BrowserRouter>
-      
     </div>
   );
 }

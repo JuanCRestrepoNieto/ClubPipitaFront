@@ -11,17 +11,17 @@ function LandingPage(props) {
             className={css.contenedorLanding}>
             <div
                 className={css.Bienvenida}>
-                Bienvenido
+                ClubPipita F.C
             </div>
             <div
                 className={css.texto}>
-                La página ofical del Club Pipita, donde podrás visualizar:
+                Página ofical del ClubPipita F.C, <span>donde podrás visualizar:</span>
             </div>
             <div
                 className={css.ContenedorResultados}>
                 <div
                     className={css.Titulos}>
-                    Información de los equipos
+                    Información de nuestros equipos
                 </div>
                 <ImageList className={css.contenedorCarousel} cols={2} >
                     {imagenes.map((item) => (
@@ -40,7 +40,7 @@ function LandingPage(props) {
                 className={css.FaseDeGrupos}>
                 <div
                     className={css.Titulos}>
-                    Fase de grupos de un torneo
+                    Fase de grupos
                 </div>
                 
             </div>

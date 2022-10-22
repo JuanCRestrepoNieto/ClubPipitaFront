@@ -10,13 +10,10 @@ function Informes (props){
                 <nav>
                     <ul className={css.listaBotones}>
                         <NavLink to='/Nosotros' activeclassname="active" className={`btn btn-success ${css.lista}`} aria-current="page">
-                        <li className={css.textoComponenteLista}>Torneo</li>
+                        <li className={css.textoComponenteLista}>Jugador</li>
                         </NavLink >
                         <NavLink to='/Nosotros' activeclassname="active" className={`btn btn-success ${css.lista}`} aria-current="page">
-                        <li >Equipo</li>
-                        </NavLink>
-                        <NavLink to='/Nosotros' activeclassname="active" className={`btn btn-success ${css.lista}`} aria-current="page">
-                        <li>Jugador</li>
+                        <li >Partidos</li>
                         </NavLink>
                     </ul>
                 </nav>
