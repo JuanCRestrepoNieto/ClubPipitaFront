@@ -35,9 +35,19 @@ const rutas = [
     {path: '/ActualizarDatosPersonales', component: FRMDatosPersonales, exact: true},  
     
         /*RUTAS DEL CONSULTAR*/
-        {path:'/ConsultarTorneo', component: FRMConsultarTorneo, exact: true },
-        {path:'/ConsultarJugador', component: FRMConsultarJugador, exact: true},
-        {path:'/ConsultarEquipo', component: FRMConsultarEquipo, exact: true}
-];
+    {path:'/ConsultarTorneo', component: FRMConsultarTorneo, exact: true },
+    {path:'/ConsultarJugador', component: FRMConsultarJugador, exact: true},
+    {path:'/ConsultarEquipo', component: FRMConsultarEquipo, exact: true},
+
+        /*RUTAS REGISTRAR*/
+        {path: '/RegistrarTorneo', component: FRMTorneo, exact: true},
+        {path: '/RegistrarPartido', component: FRMPartidos, exact: true},
+        {path: '/RegistrarJugador', component: FRMJugador, exact: true},
+        {path: '/RegistrarEstadisticas', component: FRMEstadisticas, exact: true},
+        {path: '/RegistrarEquipo', component: FRMEquipo, exact: true},
+        {path: '/RegistrarDatosPersonales', component: FRMDatosPersonales, exact: true}
+
+
+    ];
 
 export {rutas}
