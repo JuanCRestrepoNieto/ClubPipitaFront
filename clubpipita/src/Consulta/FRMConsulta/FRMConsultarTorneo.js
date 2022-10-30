@@ -29,8 +29,10 @@ function FRMConsultarTorneo(props){
                             </tr>
                         ))}
                     </tbody>
-
                 </table>
+                <div>
+                    <button>nuevo torneo</button>
+                </div>
             </div>
             
 
