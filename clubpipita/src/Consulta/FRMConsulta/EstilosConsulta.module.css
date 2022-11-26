@@ -1,0 +1,21 @@
+.ConsultarTorneoContainer{
+    background-color: darkgray;
+    border-radius: 3%;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    margin-top: 5%;
+}
+.ConsultarTorneo_form_label_text{
+    background-color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5%;
+}
+.label{
+    font-weight: bolder;
+    color: antiquewhite;
+}
+.css.ConsultarTorneo_head_table{
+    
+}
